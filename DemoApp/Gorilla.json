@@ -1,0 +1,12 @@
+﻿{
+	"knownAssemblies":[
+		{
+			"name": "FFImageLoading.Forms",
+			"types": null
+		},
+		{
+			"name": "CustomControls",
+			"types": null
+		}
+	]
+}

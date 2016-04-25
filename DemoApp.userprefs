@@ -1,0 +1,30 @@
+﻿<Properties StartupItem="Droid/DemoApp.Droid.csproj" RefactoringSettings.EnableRefactorings="True">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Gorilla" PreferredExecutionTarget="Android.192.168.57.101:5555" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/AppDelegate.cs">
+    <Files>
+      <File FileName="DemoApp/MyListPage.xaml" Line="1" Column="1" />
+      <File FileName="DemoApp/MyListItemTemplate.xaml" Line="13" Column="15" />
+      <File FileName="iOS/AppDelegate.cs" Line="11" Column="13" />
+      <File FileName="Droid/MainActivity.cs" Line="20" Column="3" />
+      <File FileName="DemoApp/App.xaml" Line="36" Column="12" />
+      <File FileName="DemoApp/SampleData.json" Line="11" Column="2" />
+      <File FileName="DemoApp/MyPage.xaml" Line="9" Column="56" />
+      <File FileName="CustomControls/CustomPicker.cs" Line="18" Column="4" />
+      <File FileName="CustomControls/InfiniteListView.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DemoApp" expanded="True" selected="True">
+            <Node name="CustomControls" expanded="True" />
+            <Node name="DemoApp" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

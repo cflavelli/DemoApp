@@ -1,0 +1,11 @@
+﻿{
+  	"MyListPage.xaml": [
+		{ "Name": "Bottled Water", "Detail":"Still water", "Photo":"bottledwater.jpg"},
+		{ "Name": "Cereal Bar", "Detail":"Some cereal bar info", "Photo":"cerealbar.jpg"}
+	],
+
+	"MyPage.xaml":{
+		"FieldTitle":"Select an option",
+		"Items":["Item1","Item2","Item3","Item4"]
+	}
+}
