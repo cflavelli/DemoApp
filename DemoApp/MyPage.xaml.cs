@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 
 namespace DemoApp
 {
-	public partial class MyPage : ContentPage
-	{
-		public MyPage ()
-		{
-			InitializeComponent ();
-		}
-	}
+    public partial class MyPage : ContentPage
+    {
+        public MyPage()
+        {
+            InitializeComponent();
+            BindingContext = new MyPageViewModel();
+        }
+    }
 }
-

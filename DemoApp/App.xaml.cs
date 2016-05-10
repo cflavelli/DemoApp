@@ -1,34 +1,31 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
-using Xamarin.Forms;
-
+[assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace DemoApp
 {
-	public partial class App : Application
-	{
-		public App ()
-		{
+    public partial class App : Application
+    {
+        public App()
+        {
+            InitializeComponent();
 
-			CustomControls.InfiniteListView a = new CustomControls.InfiniteListView ();
+            MainPage = new MyPage();
+        }
 
-			MainPage = new MyListPage();
-		}
+        protected override void OnStart()
+        {
+            // Handle when your app starts
+        }
 
-		protected override void OnStart ()
-		{
-			// Handle when your app starts
-		}
+        protected override void OnSleep()
+        {
+            // Handle when your app sleeps
+        }
 
-		protected override void OnSleep ()
-		{
-			// Handle when your app sleeps
-		}
-
-		protected override void OnResume ()
-		{
-			// Handle when your app resumes
-		}
-	}
+        protected override void OnResume()
+        {
+            // Handle when your app resumes
+        }
+    }
 }
-

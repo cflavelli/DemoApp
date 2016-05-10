@@ -1,65 +1,7 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="DemoApp.App">
 	<Application.Resources>
 		<ResourceDictionary>
-
-			<Color x:Key="DetailsColor">Gray</Color>
-			<Color x:Key="TitleColor">White</Color>
-
-			<!---MyListPage.xaml -->
-			<!-- Details Style-->
-			<OnIdiom x:Key="DetailFontSizerIOS" x:TypeArguments="x:Double" Phone="12" Tablet="20" />
-			<OnIdiom x:Key="DetailFontSizeAndroid" x:TypeArguments="x:Double" Phone="12" Tablet="24" />
-
-			<OnPlatform x:Key="DetailFontSize" 
-						x:TypeArguments="x:Double" 
-						iOS="{StaticResource DetailFontSizerIOS}" 
-						Android="{StaticResource DetailFontSizeAndroid}" />
-
-			<Style x:Key="LabelDetails" TargetType="Label">
-				<Setter Property="FontSize" Value="{StaticResource DetailFontSize}"/>
-				<Setter Property="TextColor" Value="{StaticResource DetailsColor}"/>	
-			</Style>
-
-			<!---Title Style -->
-			<OnIdiom x:Key="TitleFontSizeIOS" x:TypeArguments="x:Double" Phone="16" Tablet="24" />
-			<OnIdiom x:Key="TitleFontSizeAndroid" x:TypeArguments="x:Double" Phone="18" Tablet="26" />
-
-			<OnPlatform x:Key="TitleFontSize" 
-						x:TypeArguments="x:Double" 
-						iOS="{StaticResource TitleFontSizeIOS}" 
-						Android="{StaticResource TitleFontSizeAndroid}" />
-
-			<Style x:Key="LabelTitle" TargetType="Label">
-				<Setter Property="FontSize" Value="{StaticResource TitleFontSize}"/>
-				<Setter Property="TextColor" Value="{StaticResource TitleColor}"/>	
-			</Style>
-
-			<!-- ListView -->
-			<Style x:Key="ListView" TargetType="ListView">
-				<Setter Property="BackgroundColor" Value="Black"/>
-				<Setter Property="SeparatorColor" Value="Red"/>
-				<Setter Property="RowHeight" Value="90"/>
-			</Style>
-
-			<!-- External ListView -->
-			<Style x:Key="ExternalStack" TargetType="StackLayout">
-				<Setter Property="Orientation" Value="Horizontal"/>
-				<Setter Property="Padding" Value="20,0,0,0" />
-			</Style>
-
-			<!-- Internal ListView -->
-			<Style x:Key="InternalStack" TargetType="StackLayout">
-				<Setter Property="Orientation" Value="Vertical"/>
-				<Setter Property="VerticalOptions" Value="Center"/>
-				<Setter Property="Padding" Value="20,0,0,0" />
-			</Style>
-
-			<!-- Image Container -->
-			<Style x:Key="ImageContent" TargetType="ContentView">
-				<Setter Property="WidthRequest" Value="70" />
-			</Style>
-
 		</ResourceDictionary>
 	</Application.Resources>
 </Application>
